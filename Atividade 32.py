@@ -1,0 +1,5 @@
+f1 = str(input('Digite uma frase')).strip()
+f2 = f1.upper()
+print('A letra A aparece {} Vezes.'.format(f2.count('A')))
+print('A primeira letra A aparece na Posição {}.'.format(f2.find('A') + 1))
+print('A ultima letra A aparece no posição {}.'.format(f2.rfind('A') + 1))
